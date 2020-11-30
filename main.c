@@ -100,7 +100,7 @@ void ordenarNotebook(eNotebook lista[], int tam)
                 lista[j]=aux;
             }
             else if(!strcmp(lista[i].marca,lista[j].marca) && (lista[i].precio>lista[j].precio))
-            {      //strcmp(lista[i].marca,lista[j].marca==0
+            {
                 aux=lista[i];
                 lista[i]=lista[j];
                 lista[j]=aux;
